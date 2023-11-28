@@ -7,4 +7,4 @@ route.patch("/:id",userController.update) //update user
 route.patch("/:id/follow",userController.follow) //follow user
 route.patch("/:id/unfollow",userController.unFollow) //unfollow user
 
-module.exports = route;
+module.exports = route; 
